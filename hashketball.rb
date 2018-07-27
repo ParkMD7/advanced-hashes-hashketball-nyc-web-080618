@@ -219,7 +219,15 @@ def player_stats(player_name)
   
   game_hash.each do |team_loc, team_data|
     #binding.pry
-  
+      team_data.each do |element, data|
+        #binding.pry
+        if element == :players
+          data.each do |name, data_item|
+            binding.pry
+          end
+        end  
+      end
+  end
 end
 
 

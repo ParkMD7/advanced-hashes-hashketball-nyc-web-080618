@@ -244,7 +244,7 @@ def big_shoe_rebounds
     #binding.pry
     team_data[:players].each do |element, data|
       #binding.pry
-      if element == :players
+      if element[:shoe] > shoe_size
   
   
   

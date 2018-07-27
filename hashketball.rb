@@ -247,9 +247,10 @@ def big_shoe_rebounds
       if element[:shoe] > shoe_size
         player_shoe = data[:shoe]
         big_rebounds = data[:rebounds]
-  
-  
-  
+      end
+    end
+  end
+  big_rebounds
 end  
   
 

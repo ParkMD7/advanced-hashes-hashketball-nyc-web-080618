@@ -242,7 +242,7 @@ def big_shoe_rebounds
   
   game_hash.each do |team_loc, team_data|
     #binding.pry
-    team_data.each do |element, data|
+    team_data[:players].each do |element, data|
       #binding.pry
       if element == :players
   

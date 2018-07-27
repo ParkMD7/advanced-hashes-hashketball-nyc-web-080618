@@ -204,8 +204,8 @@ def player_numbers(team_name)
     #binding.pry
       if team_data[:team_name] == team_name
         team_data[:players].each do |element, data|
-          binding.pry
-            player_numbrs.push(numbrs[:number])
+          #binding.pry
+            player_numbrs.push(data[:number])
         end
       end
   end

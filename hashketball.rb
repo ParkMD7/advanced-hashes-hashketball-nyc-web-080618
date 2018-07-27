@@ -225,8 +225,7 @@ def player_stats(player_name)
            data.each do |name, data_item|
             #binding.pry
               if name == player_name
-                data_item.each{|x,y| stats.puts(y) }
-                  binding.pry
+                stats = data_item
               end
           end
         end  

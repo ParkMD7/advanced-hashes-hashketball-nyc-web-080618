@@ -246,7 +246,7 @@ def big_shoe_rebounds
       #binding.pry
       if element[:shoe] > shoe_size
         player_shoe = data[:shoe]
-        big_rebounds = stats[:rebounds]
+        big_rebounds = data[:rebounds]
   
   
   

@@ -226,7 +226,7 @@ def player_stats(player_name)
             #binding.pry
               if name == player_name
                 data_item.each{|x,y| stats.push(y) }
-                  #binding.pry
+                  binding.pry
               end
           end
         end  

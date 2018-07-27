@@ -214,7 +214,11 @@ end
 
 
 
-def player_stats
+def player_stats(player_name)
+  stats = {}
+  
+  game_hash.each do |team_loc, team_data|
+    #binding.pry
   
 end
 

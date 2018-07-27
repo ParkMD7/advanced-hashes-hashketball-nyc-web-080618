@@ -221,9 +221,13 @@ def player_stats(player_name)
     #binding.pry
       team_data.each do |element, data|
         #binding.pry
-        if element == :players
-          data.each do |name, data_item|
-            binding.pry
+          if element == :players
+           data.each do |name, data_item|
+            #binding.pry
+              if name == player_name
+                data_item.each{|x,y| ppg.push(y) }
+                  #binding.pry
+              end
           end
         end  
       end
